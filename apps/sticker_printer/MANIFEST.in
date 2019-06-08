@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sticker_printer *.css
+recursive-include sticker_printer *.csv
+recursive-include sticker_printer *.html
+recursive-include sticker_printer *.ico
+recursive-include sticker_printer *.js
+recursive-include sticker_printer *.json
+recursive-include sticker_printer *.md
+recursive-include sticker_printer *.png
+recursive-include sticker_printer *.py
+recursive-include sticker_printer *.svg
+recursive-include sticker_printer *.txt
+recursive-exclude sticker_printer *.pyc
